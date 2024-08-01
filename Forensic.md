@@ -21,6 +21,7 @@ Looking around the folder, I don't see much beside our next clue, 'siggies.txt',
 <code>FF D9</code>, searching it we can see that there is more than one file in the image. Looking pass FF D9 we come across <code>5A 61 72</code>, doing '5A 51' yield no result, doing the next one '61 72' shows us that it
 is a rar file. *Look at the siggies.txt to find the header*. 5A must be the padding. So how to extract?<br><br>
 There are 2 ways you can use [Scalpel](https://github.com/sleuthkit/scalpel) or you can create a script to look for those header and trailer and then extract it from the image.
-My script can be found here: [Script](https://github.com/CyberSauce001/HTS-Challenges/blob/main/forensic3.py)
+My script can be found here: [Script](https://github.com/CyberSauce001/HTS-Challenges/blob/main/forensic3.py). You should see a jpg with the password. Write it down and you will use that to open the rar.
+With that you should see a file out of the ordinary, when you open it. You will get the flag.
 
--wip
+
