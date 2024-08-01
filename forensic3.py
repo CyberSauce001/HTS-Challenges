@@ -1,5 +1,5 @@
 # Open and read the binary data of the image file
-#replace file_path with the path to your ssh.jpg
+#replace file_path with the path to your shh.jpg
 file_path = ""
 with open(file_path, "rb") as file:
     data = file.read()
