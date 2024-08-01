@@ -1,5 +1,11 @@
 # First Time Go
-You are tasked to recover a password. Go ahead download the attachment given. Looking at the files, you can see the file format is .dd 
+You are tasked to recover a password. Go ahead download the attachment given and extract. Looking at the files, you can see the file format is .dd.
+On Linux you want to down kpartx <code>sudo apt-get install kpartx</code>, then you will mount the image with this command <code>sudo kpartx -a -v file.dd</code>.<br><br>
+However I am using Windows so I be using OSFMount for this challenge. Upon opening Stacy image. You notice that all the files within .Trash are empty. So it is possible we need
+to recover them that Stacy deleted. I install a program call Recuva since it is free to restore delete files.<br><br>
+After running the program and recovering, I look around, I see a rar file with the possible answer to the challenge. However I need a key to open it, looking more around. I listen the 
+voicemail1.wav, this information tells me to use her phone number, which I found in a word doc. Copy and pasting her number I got the password, make sure to leave out the -, otherwise it won't work. 
+
 
 # Cheater
 You are tasked to find any manipulation on the image which will give you the password. I save the image to the desktop, and I did a bit search
