@@ -4,7 +4,7 @@ On Linux you want to down kpartx <code>sudo apt-get install kpartx</code>, then 
 However I am using Windows so I be using OSFMount for this challenge. Upon opening Stacy image. You notice that all the files within .Trash are empty. So it is possible we need
 to recover them that Stacy deleted. I install a program call Recuva since it is free to restore delete files.<br><br>
 After running the program and recovering, I look around, I see a rar file with the possible answer to the challenge. However I need a key to open it, looking more around. I listen the 
-voicemail1.wav, this information tells me to use her phone number, which I found in a word doc. Copy and pasting her number I got the password, make sure to leave out the -, otherwise it won't work. 
+voicemail1.wav, this information tells me to use her phone number, which I found in a word doc. Copy and pasting her number I got the password, make sure to leave out the dashes(-), otherwise it won't work. 
 
 
 # Cheater
