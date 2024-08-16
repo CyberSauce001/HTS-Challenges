@@ -11,5 +11,5 @@ This is a collection of simple writeup to solve the challenges on [Hack This Sit
 |Javascript| :white_check_mark: |
 |Forensic|:white_check_mark: |
 |Extended Basic| |
-|Steganography| |
+|Steganography|WIP |
 |IRC| |
