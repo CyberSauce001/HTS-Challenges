@@ -5,5 +5,6 @@
 |Mission 3| Quite easy one, download the image, and use steg online or my prefer favorite [Aperisolve.fr](https://aperisolve.fr/), you should see the password. |
 |Mission 4 | Down the gif file. From here I would be looking at the header byte for gif. Check the header byte nothing seems out of the ordinary. Scroll through at the very bottom there are binary in the image. Decoding the binary, you will get the password.|
 |Mission 5| Download the image. Then you will want to be on your linux. You will use hexdump for this <code>hd stego5.bmp * cut -f 2-20  -d ” ” * tr “\n” ” ” * sed ‘s/   / /g’ * sed ‘s/  / /g’ > hd </code> (replace * with the straight bar). Next open the file and remove 00003a2e at the end of the file. Looking around there are some pixels, with 3 hex bits representing RGB. They are a bit off: 3e 3f 3f 4e 4f 4f 42 43 42 3b 3b 0a -> 0  1  1  0  1  1  0  1  0  1  1  0. The password should be syn-ack-rst.|
+|Mission 6| Download the file. Then open Aperisolve, and throw it in. Scrolling through down to Zsteg, you notice a very long string. It is encoded in base64, let's decode it. Upon decoding, you got the flag.|
 
 
