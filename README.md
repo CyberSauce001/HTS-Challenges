@@ -12,4 +12,4 @@ This is a collection of simple writeup to solve the challenges on [Hack This Sit
 |Forensic|:white_check_mark: |
 |Extended Basic| |
 |Steganography|WIP |
-|IRC| |
+
