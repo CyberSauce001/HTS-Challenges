@@ -8,4 +8,5 @@
 |Mission 6| Download the file. Then open Aperisolve, and throw it in. Scrolling through down to Zsteg, you notice a very long string. It is encoded in base64, let's decode it. Upon decoding, you got the flag.|
 |Mission 7| After downloading this file and throwing it into aperisolve. The strings show adobe photoshop. Open the image in a photo editor of your choice. Upon opening the image, you notice there are 3 layers, look through the layers and remove the others to reveal the password.|
 |Mission 8| A very simple one, download the image and open it in hex editor. Scrolling through you should encounter the password. |
+|Mission 9| Download the short song, pretty catchy when you listen to it. Lets inspect it. Using a spectogram to anyalze the audio, we can see a faint marking bars. This looks like a morse code. So by writing out the morse code and decoding it. We get a series of numbers whichare ascii, decoding the values will get you the password. |
 
