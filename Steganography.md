@@ -9,4 +9,4 @@
 |Mission 7| After downloading this file and throwing it into aperisolve. The strings show adobe photoshop. Open the image in a photo editor of your choice. Upon opening the image, you notice there are 3 layers, look through the layers and remove the others to reveal the password.|
 |Mission 8| A very simple one, download the image and open it in hex editor. Scrolling through you should encounter the password. |
 |Mission 9| Download the short song, pretty catchy when you listen to it. Lets inspect it. Using a spectogram to anyalze the audio, we can see a faint marking bars. This looks like a morse code. So by writing out the morse code and decoding it. We get a series of numbers whichare ascii, decoding the values will get you the password. |
-
+|Mission 10| Looking at the image you will see that some letter are bold and some are not, given it is talking about bacon, we can assume it is using a baconian cipher. So we are going to do an 'A'(bold letters) and 'B' (not bold letters). The first word 'Bacon' would be 'ABBAA' when decoding it gives us the letter T. Decode the rest to get the password. Read the password carefully you might get tricked. |
